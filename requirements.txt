@@ -1,0 +1,10 @@
+# https://pip.readthedocs.org/en/1.1/requirements.html
+pip
+
+requests
+
+pynmea2
+
+pyserial; sys.platform == 'linux'
+pyserial==3.0.1; sys.platform == 'win32' # one case for an Win XP host
+# python_version < '3.4.4'
